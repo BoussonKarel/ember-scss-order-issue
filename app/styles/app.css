@@ -1,1 +1,14 @@
 /* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+:root {
+  --some-var: red;
+}
+
+:root,
+[data-bs-theme="light"] {
+  background-color: grey;
+  --bs-btn-color: green;
+}
+
+:root {
+  --bs-btn-color: red;
+}
