@@ -1,0 +1,10 @@
+:root {
+  --some-var: red;
+}
+
+@import 'bootstrap/scss/bootstrap.scss';
+
+// This gets merged with the first :root and some other bootstrap stuff
+:root {
+  --bs-link-color-rgb: 255,0,0;
+}
